@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            background-color: rgb(149, 206, 255);
+            padding: 5px 5px;
+            list-style: none;
+        }
+        p{
+            color: yellowgreen;
+        }
+        .pdf{
+            color: black;
+            font-family: sans-serif;
+        }
+        .btn button a{
+            text-decoration: none;
+            color: black;
+        }
+        .btn button{
+
+            /* border: 1px solid red; */
+            /* background-color: rgba(255, 0, 0, 0.588); */
+            padding: 6px 10px;
+            border: none;
+            border-radius: 6px;
+        }
+        .btn button:hover{
+            background-color: rgba(0, 0, 0, 0.226);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h3>Flex</h3>
+    <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+
+    <p>In Flex, all will come in one line instead of coming in lists.</p>
+    <p class="pdf">
+        Notes:
+    </p>
+    <div class="btn">
+        <button>
+            <a href="Flex.pdf" target="_blank">View</a>
+        </button>
+        <button>
+            <a href="" download="Flex.pdf" target="_blank">Download</a>
+        </button>
+    </div>
+    
+</body>
+</html>
